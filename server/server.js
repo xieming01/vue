@@ -4,7 +4,7 @@ const fs = require('fs');
 const favicon = require('serve-favicon');
 const app = express();
 const routes = require('../routes/index.js');
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3000;
 const serialize = require('serialize-javascript')
 const env = process.env.NODE_ENV || 'development';
 app.set('env', env);
